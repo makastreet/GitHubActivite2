@@ -2,9 +2,12 @@
 <html>
     
     <head>
-    
+        
+        <!-- Lien pour utilisation de la bibliothèque JQuery -->
         <script src="jquery.js" type="text/javascript"></script>
+        <!-- Lien vers le script javascript -->
         <script src="accordeon.js" type="text/javascript"></script>
+        <!-- Lien vers la feuille de style-->
         <link rel="stylesheet" type="text/css" href="accordeon.css" media="all"/>
         
     </head>
@@ -12,40 +15,43 @@
     <body>
         <div class="bloc">
         
-            <h1 class="ascenceur">Ligne 1 du menu</h1>
+           <!-- Premier élément du menu -->
+            <h1 class="ascenceur">Au commencement</h1>
                 <div>
                     <ul>
-                        <li>Sous menu A</li>
-                        <li>Sous menu B</li>
-                        <li>Sous menu C</li>
+                        <li>Bonjour !</li>
+                        <li>Hello !</li>
+                        <li>Salut !</li>
                     </ul>
                 </div>
 
-            <h1 class="ascenceur">Ligne 2 du menu</h1>
+           <!-- Deuxième élément du menu -->
+            <h1 class="ascenceur">Au milieu</h1>
                 <div>
                     <ul>
-                        <li>Sous menu A</li>
-                        <li>Sous menu B</li>
-                        <li>Sous menu C</li>
+                        <li>Ca va ?</li>
+                        <li>How do you do ?</li>
+                        <li>Hoe gaat het ?</li>
                     </ul>
                 </div>
 
-            <h1 class="ascenceur">Ligne 3 du menu</h1>
+           <!-- Troisième élément du menu -->
+            <h1 class="ascenceur">A la fin</h1>
                 <div>
                     <ul>
-                        <li>Sous menu A</li>
-                        <li>Sous menu B</li>
-                        <li>Sous menu C</li>
+                        <li>Au revoir</li>
+                        <li>Bye bye</li>
+                        <li>Tot siens</li>
                     </ul>
                 </div>
         </div>
         
+        <!-- Encore un script qu'il faudra évacuer dans un fichier externe -->
+        
         <script type="text/javascript">
             
                     $(".ascenceur").next("div").hide;
-                
-                
-			
+                	
         </script>
     </body>
     

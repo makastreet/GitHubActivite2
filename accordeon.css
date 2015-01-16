@@ -1,11 +1,16 @@
+/* Ces règles de style donne un look d'enfer à mon menu*/
+
+/* Un fond gris */
 body {
     background-color: rgba(74, 74, 26, 0.18);
 }
 
+/* Elimination des puces */
 li{
     list-style-type: none;
 }
 
+/* Changement de style des titres et éléments du menu */
 h1{
     color: rgba(255, 165, 0, 0.7);
     font-size: 20px;

@@ -1,3 +1,5 @@
+/* Ce script sert à animer le menu */
+
 $(document).ready(function() {
 
                 $('.ascenceur').next('div').hide();
