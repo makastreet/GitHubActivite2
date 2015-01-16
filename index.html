@@ -4,23 +4,8 @@
     <head>
     
         <script src="jquery.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-
-                $('.ascenceur').next('div').hide();
-                $('.ascenceur').mouseover(function(){
-                    if ($(this).next('div').is(':hidden')){
-                        $('.ascenceur').next('div:visible').slideUp();
-                        $(this).next('div').slideDown();
-                    }
-                });
-                
-
-            });
-            
-        </script>
+        <script src="accordeon.js" type="text/javascript"></script>
         
-
     </head>
     
     <body>
